@@ -1,0 +1,15 @@
+@keyframes titleAnimation {
+    0% { transform: translateY(0rem); }
+    100% { transform: translateY(-.35rem); }
+}
+
+@keyframes appear {
+    0% { width: 0; height: 0; opacity: 0; }
+    50% { width: 20rem; height: 0; opacity: 1;  }
+    100% { width: 20rem; height: 5rem; opacity: 1;  }
+}
+
+@keyframes preloader {
+    from { transform: rotateZ(0deg); }
+    to { transform: rotateZ(360deg); }
+}

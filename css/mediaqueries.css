@@ -1,0 +1,30 @@
+@media screen and (max-width: 1024px) {
+    body main {
+        flex-direction: column;
+    }
+
+    #information {
+        text-align: center;
+        align-items: center;
+    }
+
+    #login-section {
+        align-items: center;
+    }
+}   
+
+@media screen and (max-width: 500px) {
+    body main section {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #information {
+        height: auto;
+    }
+
+    #information .steps {
+        flex-direction: column;
+    }
+}
